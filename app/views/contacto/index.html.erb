@@ -1,0 +1,37 @@
+<article>
+   <div class="container">
+      <div class="row">
+         <div class="col-md-10 col-lg-6 pb-4">
+            <h2 class="pb-2 border-bottom">Contacto</h2>
+            <h3 class="fs-4 text-muted py-3">¿Dónde estamos?</h3>
+            <p><strong>Dirección:</strong> siempre feliz #455, Requegua VI Región</p>
+            <p><strong>Correo electronico:</strong>  info@jvrequegua.cl</p>
+            <p><strong>Horario de atención:</strong>  Lunes a Viernes. Se atiende solamente 
+               con hora previa gestionado mediante correo electrónico. 
+            </p>
+         </div>
+         <div class="col">
+            <div class="col-md-12 mx-auto col-lg-10 pt-4">
+               <form id="form_registro" class="p-4 p-md-5 border rounded-3 bg-light">
+                  <h3 class="text-center py-3">Formulario de consultas</h3>
+                  <div class="form-floating mb-3">
+                     <input type="text" class="form-control" id="txtnombre" placeholder="Nombre">
+                     <label for="txtnombre">Mi nombre y apellido es</label>
+                  </div>
+                  
+                  <div class="form-floating mb-3">
+                     <input type="email" class="form-control" id="txtmail" placeholder="E-mail">
+                     <label for="txtmail">Mi correo eléctronico es</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                     <label for="exampleFormControlTextarea1" class="form-label">Mi consulta es ...</label>
+                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                  </div>
+                  <button id="btn_registro" type="button" class="w-100 btn btn-lg btn-primary" onclick="validar(this)">Enviar</button>
+                  <hr class="my-4">
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</article>
